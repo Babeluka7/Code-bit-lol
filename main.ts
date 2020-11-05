@@ -38,12 +38,13 @@ input.onButtonPressed(Button.B, function () {
             `)
     }
 })
-basic.showArrow(ArrowNames.North)
-basic.showArrow(ArrowNames.NorthEast)
-basic.showArrow(ArrowNames.East)
-basic.showArrow(ArrowNames.SouthEast)
-basic.showArrow(ArrowNames.South)
-basic.showArrow(ArrowNames.SouthWest)
-basic.showArrow(ArrowNames.West)
-basic.showArrow(ArrowNames.NorthWest)
-basic.showArrow(ArrowNames.North)
+for (let index = 0; index < 15; index++) {
+    basic.showArrow(ArrowNames.North)
+    basic.showArrow(ArrowNames.NorthEast)
+    basic.showArrow(ArrowNames.East)
+    basic.showArrow(ArrowNames.SouthEast)
+    basic.showArrow(ArrowNames.South)
+    basic.showArrow(ArrowNames.SouthWest)
+    basic.showArrow(ArrowNames.West)
+    basic.showArrow(ArrowNames.NorthWest)
+}
